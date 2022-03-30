@@ -1,0 +1,110 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+/*   background-color: slategrey; */
+  background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/minecraft.jpg?v=1648605561112);
+  background-size: 100%;
+  color: black; 
+  margin: 2rem;
+  font-family: verdana, arial, sans-serif;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+h5 {
+  font-family: verdana, arial, sans-serif;
+  font-size: 20px;
+
+
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-family: verdana, arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+label {
+  font-family: verdana, arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: lightblue
+}
+#button3 {
+    background: pink;
+}
+#button4 {
+    background: lightyellow;
+}
+#button5 {
+    background: lightsalmon;
+}
+#button1:active, #button1.lit {
+    background:green;
+    background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/creeper.png?v=1648604125093);
+    background-size: 100%;
+}
+#button2:active, #button2.lit {
+    background:blue;
+    background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/zombie.png?v=1648604475835);
+    background-size: 100%;
+
+}
+#button3:active, #button3.lit {
+    background:red;
+    background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/enderman.png?v=1648605204136);
+    background-size: 100%;
+
+}
+#button4:active, #button4.lit {
+  background:yellow;
+  background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/spider.png?v=1648605012941);
+  background-size: 135%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#button5:active, #button5.lit {
+    background:chocolate;
+    background: url(https://cdn.glitch.global/c0c29915-21f7-41a9-8a16-ba511164d4cc/skeleton.png?v=1648605133528);
+    background-size: 100%;
+
+}
+
+.hidden {
+  display: none;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
