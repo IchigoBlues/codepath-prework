@@ -23,7 +23,7 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [x] More than 4 functional game buttons
 * [x] Playback speeds up on each turn
 * [x] Computer picks a different pattern each time the game is played
@@ -41,14 +41,21 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
+Completion of Game
+
 ![Completion of Game](https://user-images.githubusercontent.com/77818374/160889546-98039f5e-5204-41d3-9e66-25692ee373c4.gif)
 
+3 Strikes
+
 ![3 Strikes](https://user-images.githubusercontent.com/77818374/160900410-238569ec-711b-4ce8-a4be-0d4a6bceb05e.gif)
+
+Time Runs Out
 
 ![Time Runs Out](https://user-images.githubusercontent.com/77818374/160902087-01d39702-f8a6-4b41-89a3-eb8fd98907bb.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+ 
 How I chose my color for my 5th button: https://www.w3schools.com/cssref/css_colors.asp
 
 How I got the function for getting a random integer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
