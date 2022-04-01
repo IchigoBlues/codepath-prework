@@ -34,7 +34,7 @@ function startGame(){
 }
 
 function stopGame(){
-    window.clearInterval(int)
+    clearInterval(int)
     clearTimeout(int)
     document.getElementById("count").innerHTML = maxTime;
     resetStrikes()
@@ -79,7 +79,7 @@ function countDown() {
   }
   
   if (gamePlaying == false) {
-    window.clearInterval(int);
+    clearInterval(int);
   }
   
 }
@@ -126,7 +126,7 @@ function playClueSequence(){
 function startTimer() {
   timeLeft = maxTime;
 
-  window.int = window.setInterval(countDown, 1000);
+  int = setInterval(countDown, 1000);
   
 }
 
@@ -148,7 +148,7 @@ function guess(btn){
         }else{
           progress++;
           playClueSequence();
-          window.clearInterval(int);
+          clearInterval(int);
           clearTimeout(int)
           document.getElementById("count").innerHTML = 15;
 
@@ -159,7 +159,7 @@ function guess(btn){
     }else{
       increaseScore();
       playClueSequence();
-      window.clearInterval(int);
+      clearInterval(int);
       clearTimeout(int)
       document.getElementById("count").innerHTML = 15;
     }
