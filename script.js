@@ -230,7 +230,7 @@ o.connect(g)
 o.start(0)
 
 function loseGame(){
-  window.clearInterval(int);
+  clearInterval(int);
   stopGame();
   alert("Game Over. You lost.");
   
@@ -239,9 +239,10 @@ function loseGame(){
 }
 
 function winGame(){
-  window.clearInterval(int);
+  clearInterval(int);
   stopGame();
   alert("Game Over. You won!");
+    
   timeLeft = maxTime;
   document.getElementById("count").innerHTML = timeLeft; 
 }
