@@ -95,7 +95,7 @@ There was also some repetitive code in the JavaScript file that I would have lik
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/b808f2eced8242d896b39f7e0cc89d60)
 
 
 ## License
